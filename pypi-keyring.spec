@@ -4,7 +4,7 @@
 #
 Name     : pypi-keyring
 Version  : 23.5.0
-Release  : 113
+Release  : 114
 URL      : https://files.pythonhosted.org/packages/22/2b/e840597838cc63f96926bd7daca67936031635cfe6c81ee12dc652bd2dce/keyring-23.5.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/22/2b/e840597838cc63f96926bd7daca67936031635cfe6c81ee12dc652bd2dce/keyring-23.5.0.tar.gz
 Summary  : Store and access your passwords safely.
@@ -21,7 +21,6 @@ BuildRequires : pypi(jeepney)
 BuildRequires : pypi(secretstorage)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
-BuildRequires : setuptools-python
 
 %description
 .. image:: https://img.shields.io/pypi/v/keyring.svg
@@ -77,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641845273
+export SOURCE_DATE_EPOCH=1641945195
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
