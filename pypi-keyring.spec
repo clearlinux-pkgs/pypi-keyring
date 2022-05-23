@@ -4,7 +4,7 @@
 #
 Name     : pypi-keyring
 Version  : 23.5.1
-Release  : 116
+Release  : 117
 URL      : https://files.pythonhosted.org/packages/0b/c6/87aaea22b32a85c1eb786ee77844f826103e65e9c0a0c4df1f95ec23d3be/keyring-23.5.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0b/c6/87aaea22b32a85c1eb786ee77844f826103e65e9c0a0c4df1f95ec23d3be/keyring-23.5.1.tar.gz
 Summary  : Store and access your passwords safely.
@@ -79,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1653336156
+export SOURCE_DATE_EPOCH=1653341002
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
