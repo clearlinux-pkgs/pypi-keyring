@@ -4,7 +4,7 @@
 #
 Name     : pypi-keyring
 Version  : 23.13.1
-Release  : 133
+Release  : 134
 URL      : https://files.pythonhosted.org/packages/55/fe/282f4c205add8e8bb3a1635cbbac59d6def2e0891b145aa553a0e40dd2d0/keyring-23.13.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/55/fe/282f4c205add8e8bb3a1635cbbac59d6def2e0891b145aa553a0e40dd2d0/keyring-23.13.1.tar.gz
 Summary  : Store and access your passwords safely.
