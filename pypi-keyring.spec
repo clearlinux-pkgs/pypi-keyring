@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-keyring
-Version  : 24.1.0
-Release  : 137
-URL      : https://files.pythonhosted.org/packages/e0/a8/31b814a0c99118ee4db6df013925a3236fa18a914bf69202277896bf4038/keyring-24.1.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/e0/a8/31b814a0c99118ee4db6df013925a3236fa18a914bf69202277896bf4038/keyring-24.1.0.tar.gz
+Version  : 24.2.0
+Release  : 138
+URL      : https://files.pythonhosted.org/packages/14/c5/7a2a66489c66ee29562300ddc5be63636f70b4025a74df71466e62d929b1/keyring-24.2.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/14/c5/7a2a66489c66ee29562300ddc5be63636f70b4025a74df71466e62d929b1/keyring-24.2.0.tar.gz
 Summary  : Store and access your passwords safely.
 Group    : Development/Tools
 License  : MIT Python-2.0
@@ -68,10 +68,10 @@ python3 components for the pypi-keyring package.
 
 
 %prep
-%setup -q -n keyring-24.1.0
-cd %{_builddir}/keyring-24.1.0
+%setup -q -n keyring-24.2.0
+cd %{_builddir}/keyring-24.2.0
 pushd ..
-cp -a keyring-24.1.0 buildavx2
+cp -a keyring-24.2.0 buildavx2
 popd
 
 %build
@@ -79,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1687534469
+export SOURCE_DATE_EPOCH=1687796677
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
