@@ -1,5 +1,5 @@
 PKG_NAME := pypi-keyring
-URL = https://files.pythonhosted.org/packages/18/ec/cc0afdcd7538d4942a6b78f858139120a8c7999e554004080ed312e43886/keyring-25.1.0.tar.gz
+URL = https://files.pythonhosted.org/packages/b8/09/fdd3a390518e3aebeec0d7aceae7f9152da1fd2484f12f1b3a12a74aa079/keyring-25.2.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
