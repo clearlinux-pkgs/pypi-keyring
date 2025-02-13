@@ -7,7 +7,7 @@
 #
 Name     : pypi-keyring
 Version  : 25.6.0
-Release  : 151
+Release  : 152
 URL      : https://files.pythonhosted.org/packages/70/09/d904a6e96f76ff214be59e7aa6ef7190008f52a0ab6689760a98de0bf37d/keyring-25.6.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/70/09/d904a6e96f76ff214be59e7aa6ef7190008f52a0ab6689760a98de0bf37d/keyring-25.6.0.tar.gz
 Summary  : Store and access your passwords safely.
